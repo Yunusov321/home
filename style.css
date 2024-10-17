@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left ul li {
+    margin-right: 20px;
+}
+
+.navbar-left ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.navbar-left ul li.active a {
+    font-weight: bold;
+    color: #e63946;
+}
+
+.post-btn {
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border: color(srgb red  );
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shop-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shop-header h1 {
+    font-size: 24px;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-box button {
+    padding: 8px 16px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.history-link {
+    text-decoration: none;
+    color: #e63946;
+    font-size: 16px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    color: #e63946;
+    text-decoration: none;
+}
+.joha{
+    display: flex;
+    justify-content: space-evenly;
+}
+.setfooter{
+    display: flex;
+    justify-content: space-around;
+}
